@@ -1,0 +1,19 @@
+//Author:Geng Si Day:2010.9.11
+{
+"manifest_version": 2,
+"name": "Docx2Html Extension",
+"version": "1.0",
+"description": "This is the docx2html Chrome extension.",
+"browser_action": {
+    "default_title": "Docx2Html" 
+  },
+"background":{
+	"scripts": ["background.js"]
+},
+"permissions": [
+"http://*/",
+"bookmarks",
+"tabs",
+"history"
+]
+}
