@@ -1,0 +1,19 @@
+/*Author: Lv Shuqi Day:2015.9.11 */
+{
+"manifest_version": 2,
+"name": "XLSX2Html Extension",
+"version": "1.0",
+"description": "This is the xlsx2html Chrome extension.",
+"browser_action": {
+    "default_title": "xlsx2html" 
+},
+"background":{
+	"scripts": ["background.js"]
+}, 
+"permissions": [
+"http://*/",
+"bookmarks",
+"tabs",
+"history"
+]
+}

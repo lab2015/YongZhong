@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- LV SHUQi 2015.9.9 -->
+<html>
+  <head>
+    <title>A XLSX2HTML JavaScript</title>
+
+    <!-- Include main js lib -->
+    <script type="text/javascript" src="./jszip.js"></script>
+    <script type="text/javascript" src="./jquery-1.9.1.js"></script>
+	  <script src="xlsx2html_lib.js"> </script>
+    
+	  <style type="text/css">
+	      #container
+	      {
+		        min-width: 400px;
+		        min-height: 100px;
+		        border: 2px dotted #000;
+		        -moz-border-radius: 8px;
+	      } 
+    </style>
+
+    <style type="text/css">
+        #text_content
+        table{border-collapse:collapse;border-spacing:0;border-left:1px solid #888;border-top:1px solid #888;background:#efefef;}
+        th,td{border-right:1px solid #888;border-bottom:1px solid #888;padding:5px 15px;}
+        th{font-weight:bold;background:#ccc;}
+    </style>  
+ 
+  </head>
+  <body>
+    <h1>A XLSX2HTML JavaScript prototype</h1>
+      
+    <div id="container">
+        <p>Drag and drop docx/xlsx file here.</p>
+    </div>
+
+    <div id="text_content_block">
+        <div id="text_content"></div>
+    </div>
+      
+  </body>
+</html>
